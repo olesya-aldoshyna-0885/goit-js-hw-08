@@ -3,7 +3,7 @@ import throttle from 'lodash.throttle';
 
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
-LOCALE_KEY = `videoplayer-current-time`;
+const LOCALE_KEY = `videoplayer-current-time`;
 
 player.on(
   'timeupdate',
